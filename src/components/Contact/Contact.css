@@ -10,6 +10,7 @@
     justify-self: center;
     position: relative;
     flex: 1;
+    margin-top: 4rem;
 }
 
 .c-right>form {

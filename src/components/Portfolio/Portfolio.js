@@ -23,7 +23,7 @@ const Portfolio = () => {
       <span>Portfolio</span>
 
 
-     {/*  <Swiper
+     <Swiper
         className="portfolio-slider"
         navigation={true}
         loop={true}
@@ -47,7 +47,7 @@ const Portfolio = () => {
         <SwiperSlide>
           <img src={MusicApp} alt="" />
         </SwiperSlide>
-      </Swiper> */}
+      </Swiper> 
     </div>
   );
 };

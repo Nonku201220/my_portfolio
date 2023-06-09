@@ -62,7 +62,7 @@ const Services = () => {
             emoji={Humble}
             heading={'UI/UX'}
             detail={
-              'Lorem ispum dummy text are usually used in section where we need some random text'
+              'Creating the look and feel of an application’s user interface'
             }
           />
         </motion.div> 

@@ -36,10 +36,12 @@
     color: var(--black) ;
 }
 
-.n-list> ul >li:hover {
+.n-list li:hover {
     cursor: pointer;
-    color: var(--orange) ;
-}
+    color: var(--orange);
+  }
+  
+
 
 .n-button {
     flex: 2;

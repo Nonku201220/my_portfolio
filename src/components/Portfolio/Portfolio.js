@@ -9,6 +9,7 @@ import Products from '../../img/my_products.png';
 /* import Recipe from '../../img/recipe.png'; */
 import LandingPage from '../../img/my_page.png';
 import Lotto from '../../img/dailyLotto.png';
+import MyLogin from '../../img/loginForm.png';
 import 'swiper/swiper-bundle.min.css';
 import 'swiper/swiper.min.css';
 import { themeContext } from '../../Context';
@@ -42,15 +43,27 @@ marginTop: '3rem'}}
         loopFillGroupWithBlank={true}
       >
         <SwiperSlide>
+        <a href="https://example.com">
           <img style= {{width: '20rem', height: '15rem'}} src={Login} alt="" />
+          </a>
         </SwiperSlide>
 
         <SwiperSlide>
+        <a href="https://example.com">
           <img style= {{width: '20rem', height: '15rem'}} src={Makeup} alt="" />
+          </a>
         </SwiperSlide>
 
         <SwiperSlide>
+        <a href="file:///C:/Users/nonkululekon/Documents/My_Products.htm">
           <img style= {{width: '20rem', height: '15rem'}} src={Products} alt="" />
+          </a>
+        </SwiperSlide>
+
+        <SwiperSlide>
+        <a href="file:///C:/Users/nonkululekon/Documents/my_loginForm.htm">
+          <img style= {{width: '20rem', height: '15rem'}}src={MyLogin} alt="" />
+          </a>
         </SwiperSlide>
 
        {/*  <SwiperSlide>
@@ -58,11 +71,15 @@ marginTop: '3rem'}}
           </SwiperSlide> */}
 
           <SwiperSlide>
+          <a href="file:///C:/Users/nonkululekon/Documents/Landing_Page.htm">
           <img style= {{width: '20rem', height: '15rem'}} src={LandingPage} alt="" />
+          </a>
         </SwiperSlide>
 
         <SwiperSlide>
+        <a href="file:///C:/Users/nonkululekon/Documents/My_recipes.htm">
           <img style= {{width: '20rem', height: '15rem'}}src={Lotto} alt="" />
+          </a>
         </SwiperSlide>
       </Swiper> 
     </div>

@@ -6,7 +6,7 @@ import LinkedIn from '../../img/linkedin.png';
 import Facebook from '../../img/Facebook.png';
 import Vector1 from '../../img/Vector1.png';
 import Vector2 from '../../img/Vector2.png';
-/* import nonku3 from '../../img/nonku3.png'; */
+/* import nonku1 from '../../img/nonku1.png'; */
 import Crown from '../../img/crown.png';
 import glassesimoji from '../../img/glassesimoji.png';
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
@@ -39,7 +39,7 @@ const Intro = () => {
       <div className='i-right'>
         <img src={Vector1} alt='' />
         <img src={Vector2} alt='' />
-      {/*   <img src={nonku3} alt='' />  */}
+        {/*   <img src={nonku1} alt='' />  */}
 
         <motion.img
           initial={{ left: '-36%' }}
@@ -57,11 +57,13 @@ const Intro = () => {
         </motion.div>
         <div
           className='blur'
-          style={{ background: 'rgb(238 210 255)',  top: '15rem',
-          width: '21rem',
-          height: '11rem',
-          left: '10rem', }}
-          
+          style={{
+            background: 'rgb(238 210 255)', top: '15rem',
+            width: '21rem',
+            height: '11rem',
+            left: '10rem',
+          }}
+
         ></div>
         <div
           className='blur'

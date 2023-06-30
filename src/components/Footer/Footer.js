@@ -11,10 +11,10 @@ const Footer = () => {
         <span>wwww.nonkululekontotoshe87@gmail.com</span>
         <div className="f-icons">
           <a href="https://www.facebook.com/nonkululeko.nkuliegh.7" target="_blank" rel="noopener noreferrer">
-            <UilFacebook color="white" size="3rem" />
+            <UilFacebook color="white" size="2rem" />
           </a>
           <a href="https://github.com/Nonku201220" target="_blank" rel="noopener noreferrer">
-            <UilGithub color="white" size="3rem" />
+            <UilGithub color="white" size="2rem" />
           </a>
         </div>
       </div>

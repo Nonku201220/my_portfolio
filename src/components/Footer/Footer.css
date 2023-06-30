@@ -36,4 +36,8 @@
         color: white;
         font-size: 200;
     }
+
+    .footer {
+        margin-bottom: 1rem;
+    }
 }

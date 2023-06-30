@@ -3,7 +3,7 @@
     display: flex;
     height: 80vh;
     margin-top: 4rem;
-} 
+}
 
 .c-right {
     display: flex;
@@ -22,7 +22,7 @@
 
 }
 
-.c-right .user{
+.c-right .user {
     width: 20rem;
     height: 2rem;
     padding: 0.3rem;
@@ -46,8 +46,20 @@
 
 @media screen and (max-width: 480px) {
     .contact-form {
+        display: block;
         width: 5px;
         height: 25rem;
-        margin-left: -5rem;
+        margin-left: -7rem;
+
+    }
+
+    .c-right .user {
+        width: 15rem;
+    }
+
+    .contact {
+
+        width: 20rem;
+        margin-left: 8rem
     }
 }

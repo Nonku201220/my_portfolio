@@ -28,21 +28,31 @@
     flex: 10;
 }
 
-.n-list> ul {
+.n-list>ul {
     display: flex;
     gap: 2rem;
     margin-right: 4rem;
     cursor: pointer;
-    color: var(--black) ;
+    color: var(--black);
 }
 
 .n-list li:hover {
     cursor: pointer;
     color: var(--orange);
-  }
-  
+}
+
 
 
 .n-button {
     flex: 2;
+}
+
+@media screen and (max-width: 480px) {
+    .n-list {
+        display: none;
+    }
+
+    .n-button {
+        display: none;
+    }
 }

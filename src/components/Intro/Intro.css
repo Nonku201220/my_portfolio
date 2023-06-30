@@ -29,7 +29,7 @@
     font-size: 2rem;
 }
 
-.i-name> :nth-child(3)  {
+.i-name> :nth-child(3) {
     font-weight: 100;
     font-size: 14px;
     color: var(gray);
@@ -48,11 +48,11 @@
     height: 30px;
 }
 
-.icons >* {
+.icons>* {
     transform: scale(0.2);
 }
 
-.i-icons >*:hover {
+.i-icons>*:hover {
     cursor: pointer;
 }
 
@@ -74,32 +74,32 @@
     position: absolute;
 }
 
-.i-right >* {
+.i-right>* {
     position: absolute;
     z-index: 1;
 }
 
-.i-right > :nth-child(1) {
+.i-right> :nth-child(1) {
     transform: scale(0.69);
     margin-left: 20rem;
     margin-top: 3rem;
     width: 24rem;
 }
 
-.i-right > :nth-child(2) {
+.i-right> :nth-child(2) {
     margin-top: -4.6rem;
     transform: scale(0.40);
     margin-left: 14rem;
 }
 
-.i-right > :nth-child(3) {
+.i-right> :nth-child(3) {
     transform: scale(1.4);
     margin-left: 20rem;
     margin-top: 0rem;
     width: 4rem;
 }
 
-.i-right > :nth-child(4) {
+.i-right> :nth-child(4) {
     transform: scale(0.6);
     top: -19%;
     left: -24%;
@@ -125,26 +125,27 @@
         height: 64rem;
         gap: 7rem;
     }
-    .i-right > :nth-child(1) {
+
+    .i-right> :nth-child(1) {
         transform: scale(0.69);
-        margin-left: 2rem;
+        margin-left: 1rem;
         margin-top: 21rem;
         width: 29rem;
-      }
+    }
 
-      .i-right > :nth-child(2) {
+    .i-right> :nth-child(2) {
         margin-top: 11.4rem;
         transform: scale(0.40);
-        margin-left: -6rem;
+        margin-left: -7rem;
         width: 47rem;
-      }
+    }
 
-      .i-right > :nth-child(3) {
+    .i-right> :nth-child(3) {
         transform: scale(1.4);
         margin-left: 4rem;
         margin-top: 20rem;
         width: 5rem;
-      }
+    }
 
     .i-right {
         transform: scale(0.8);
@@ -152,14 +153,14 @@
     }
 
     .floating-div:nth-of-type(1) {
-        top: -7 !important ;
+        top: -7 !important;
     }
 
     .i-icons {
         margin-top: 20rem;
         display: flex;
         gap: 1rem;
-        height: 40px;
+        height: 30px;
         justify-content: center;
     }
 }

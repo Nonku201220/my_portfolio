@@ -45,7 +45,15 @@ const ContactForm = () => {
           {/*         <span style={{ color: darkMode ? 'white' : 'inherit', fontSize: '1.2rem', fontWeight: 'bold' }}>
   Get in touch
 </span> */}
-          <span style={{ fontSize: '1rem', display: 'flex', color: 'var(--orange)', fontWeight: 'bold', marginTop: '9rem', fontSize: '1.5rem' }}>Contact Me</span>
+          <span className='contact' style={{
+            fontSize: '1rem', display: 'flex', color: 'var(--orange)', fontWeight: 'bold', marginTop: '9rem', fontSize: '1.5rem', '@media screen and (max-width: 768px)': {
+              width: '20rem',
+              marginLeft: '9rem'
+            }
+          }}
+          >
+            Contact Me
+          </span>
 
           <div className='blur s-blur' style={{ background: '#ABF1FF94' }}></div>
         </div>
